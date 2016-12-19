@@ -26,10 +26,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Taxi Game Veiw-->
         <scene sceneID="aNS-Ni-0PV">
             <objects>
-                <viewController id="QEX-hU-6PF" sceneMemberID="viewController">
+                <viewController id="QEX-hU-6PF" customClass="TaxiGameVeiw" customModule="Temporal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XXm-5R-Io7"/>
                         <viewControllerLayoutGuide type="bottom" id="qeq-yV-ynd"/>
@@ -42,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dXf-pq-pvn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="772" y="123"/>
+            <point key="canvasLocation" x="710" y="36"/>
         </scene>
     </scenes>
 </document>

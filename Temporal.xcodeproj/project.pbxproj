@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9332C7961E081B8E00762A2E /* TaxiGameVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332C7951E081B8E00762A2E /* TaxiGameVeiw.swift */; };
+		9332C7981E081C9F00762A2E /* TaxiGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332C7971E081C9F00762A2E /* TaxiGameScene.swift */; };
 		C39143E51DF1C2BC00C3B44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39143E41DF1C2BC00C3B44A /* AppDelegate.swift */; };
 		C39143E71DF1C2BC00C3B44A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C39143E61DF1C2BC00C3B44A /* GameScene.sks */; };
 		C39143E91DF1C2BC00C3B44A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C39143E81DF1C2BC00C3B44A /* Actions.sks */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9332C7951E081B8E00762A2E /* TaxiGameVeiw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxiGameVeiw.swift; sourceTree = "<group>"; };
+		9332C7971E081C9F00762A2E /* TaxiGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxiGameScene.swift; sourceTree = "<group>"; };
 		C39143E11DF1C2BC00C3B44A /* Temporal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temporal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39143E41DF1C2BC00C3B44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C39143E61DF1C2BC00C3B44A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -80,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9332C7991E081CDD00762A2E /* TaxiGame */ = {
+			isa = PBXGroup;
+			children = (
+				9332C7951E081B8E00762A2E /* TaxiGameVeiw.swift */,
+				9332C7971E081C9F00762A2E /* TaxiGameScene.swift */,
+			);
+			name = TaxiGame;
+			sourceTree = "<group>";
+		};
 		C39143D81DF1C2BB00C3B44A = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +122,7 @@
 				C39143EA1DF1C2BC00C3B44A /* GameScene.swift */,
 				C39143EC1DF1C2BC00C3B44A /* GameViewController.swift */,
 				C39143EE1DF1C2BC00C3B44A /* Main.storyboard */,
+				9332C7991E081CDD00762A2E /* TaxiGame */,
 				C39143F11DF1C2BC00C3B44A /* Assets.xcassets */,
 				C39143F31DF1C2BC00C3B44A /* LaunchScreen.storyboard */,
 				C39143F61DF1C2BC00C3B44A /* Info.plist */,
@@ -271,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C39143EB1DF1C2BC00C3B44A /* GameScene.swift in Sources */,
+				9332C7961E081B8E00762A2E /* TaxiGameVeiw.swift in Sources */,
 				C39143ED1DF1C2BC00C3B44A /* GameViewController.swift in Sources */,
+				9332C7981E081C9F00762A2E /* TaxiGameScene.swift in Sources */,
 				C39143E51DF1C2BC00C3B44A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +533,7 @@
 				C39144111DF1C2BC00C3B44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C39144121DF1C2BC00C3B44A /* Build configuration list for PBXNativeTarget "TemporalTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +542,7 @@
 				C39144141DF1C2BC00C3B44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C39144151DF1C2BC00C3B44A /* Build configuration list for PBXNativeTarget "TemporalUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +551,7 @@
 				C39144171DF1C2BC00C3B44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
