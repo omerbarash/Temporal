@@ -1,8 +1,8 @@
 //
-//  TaxiGame.swift
+//  GameViewController.swift
 //  Temporal
 //
-//  Created by Milad Masoodi (student LM) on 12/19/16.
+//  Created by Omer Barash (student LM) on 12/2/16.
 //  Copyright © 2016 Omer Barash (student LM). All rights reserved.
 //
 
@@ -10,7 +10,7 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class TaxiGameVeiw: UIViewController{
+class TaxiGameView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +52,4 @@ class TaxiGameVeiw: UIViewController{
     override var prefersStatusBarHidden: Bool {
         return true
     }
-    
-    
 }

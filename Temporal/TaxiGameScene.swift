@@ -37,6 +37,7 @@ class TaxiGameScene: SKScene{
                                               SKAction.removeFromParent()]))
         }
     }
+    
 
     
 }

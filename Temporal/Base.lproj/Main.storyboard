@@ -29,18 +29,18 @@
         <!--Taxi Game Veiw-->
         <scene sceneID="aNS-Ni-0PV">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dXf-pq-pvn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="QEX-hU-6PF" customClass="TaxiGameVeiw" customModule="Temporal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XXm-5R-Io7"/>
                         <viewControllerLayoutGuide type="bottom" id="qeq-yV-ynd"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rKw-N0-VsF">
+                    <view key="view" contentMode="scaleToFill" id="rKw-N0-VsF" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dXf-pq-pvn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="710" y="36"/>
         </scene>
