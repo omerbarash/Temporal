@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9332C7961E081B8E00762A2E /* TaxiGameVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332C7951E081B8E00762A2E /* TaxiGameVeiw.swift */; };
 		9332C7981E081C9F00762A2E /* TaxiGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9332C7971E081C9F00762A2E /* TaxiGameScene.swift */; };
+		9332C79B1E0822F100762A2E /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9332C79A1E0822F100762A2E /* MyScene.sks */; };
 		C39143E51DF1C2BC00C3B44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39143E41DF1C2BC00C3B44A /* AppDelegate.swift */; };
 		C39143E71DF1C2BC00C3B44A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C39143E61DF1C2BC00C3B44A /* GameScene.sks */; };
 		C39143E91DF1C2BC00C3B44A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C39143E81DF1C2BC00C3B44A /* Actions.sks */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		9332C7951E081B8E00762A2E /* TaxiGameVeiw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxiGameVeiw.swift; sourceTree = "<group>"; };
 		9332C7971E081C9F00762A2E /* TaxiGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaxiGameScene.swift; sourceTree = "<group>"; };
+		9332C79A1E0822F100762A2E /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
 		C39143E11DF1C2BC00C3B44A /* Temporal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Temporal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39143E41DF1C2BC00C3B44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C39143E61DF1C2BC00C3B44A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				9332C7951E081B8E00762A2E /* TaxiGameVeiw.swift */,
 				9332C7971E081C9F00762A2E /* TaxiGameScene.swift */,
+				9332C79A1E0822F100762A2E /* MyScene.sks */,
 			);
 			name = TaxiGame;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				C39143E71DF1C2BC00C3B44A /* GameScene.sks in Resources */,
 				C39143F21DF1C2BC00C3B44A /* Assets.xcassets in Resources */,
 				C39143F51DF1C2BC00C3B44A /* LaunchScreen.storyboard in Resources */,
+				9332C79B1E0822F100762A2E /* MyScene.sks in Resources */,
 				C39143E91DF1C2BC00C3B44A /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
